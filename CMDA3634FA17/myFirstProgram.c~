@@ -1,0 +1,7 @@
+/* every C program must have a main function*/
+main(){
+  
+  /* this is a comment */
+  printf("hello tim warburton, you are my world!!!\n");
+
+}

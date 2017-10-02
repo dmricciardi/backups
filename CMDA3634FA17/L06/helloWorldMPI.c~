@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "mip.h"
+
+int main(int argc, char **argv){
+
+  /* initialize MPI as soon as you enter your main function */
+  MPI_Init(&argc, &argv);
+
+  
+
+  
+  /* all instances of this MPI program must enter 
+     the "finalize" function before exiting */
+  MPI_Finalize();
+  exit(o);
+  return 0;
+}
